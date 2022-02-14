@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_width">120dp</dimen>
+    <dimen name="button_height">80dp</dimen>
+    <dimen name="default_fontSize">25sp</dimen>
+    <dimen name="default_margin">50dp</dimen>
+    <dimen name="text_margin">10dp</dimen>
+    <dimen name="img_width">180dp</dimen>
+    <dimen name="img_height">400dp</dimen>
+    <dimen name="button_width_winner">165dp</dimen>
+    <dimen name="button_text_size">25sp</dimen>
+    <dimen name="bottom_margin">10dp</dimen>
+</resources>

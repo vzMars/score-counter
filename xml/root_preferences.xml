@@ -1,0 +1,41 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/bg_settings_header">
+
+        <ListPreference
+            app:defaultValue="basketball"
+            app:entries="@array/main_entries"
+            app:entryValues="@array/main_values"
+            app:key="main_background"
+            app:title="@string/main_bg_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="medal"
+            app:entries="@array/winner_entries"
+            app:entryValues="@array/winner_values"
+            app:key="winner_background"
+            app:title="@string/winner_bg_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/favorite_team_header">
+
+        <EditTextPreference
+            app:key="favorite_team"
+            app:title="@string/favorite_team"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/contact_header">
+
+        <EditTextPreference
+            app:key="contact"
+            app:title="Preferred Contact"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

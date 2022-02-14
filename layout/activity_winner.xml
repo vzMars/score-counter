@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WinnerActivity"
+    android:background="@color/winner_bg_color">
+
+    <ImageView
+        android:id="@+id/winner_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/img_height"
+        android:src="@drawable/cup"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/img_cup_description"
+        android:layout_marginBottom="@dimen/bottom_margin"/>
+
+    <TextView
+        android:id="@+id/winning_team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/winner"
+        android:textStyle="bold"
+        android:textSize="@dimen/default_fontSize"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_below="@+id/winner_bg"
+        android:layout_marginBottom="@dimen/bottom_margin"/>
+
+    <LinearLayout
+        android:id="@+id/linear_lay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/winning_team"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/button_call"
+            android:layout_width="@dimen/button_width_winner"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text_call"
+            android:textStyle="bold"
+            android:textSize="@dimen/button_text_size"
+            android:backgroundTint="@color/button_bg"
+            android:textColor="@color/black"
+            android:layout_marginEnd="10dp"
+            android:onClick="callPhone"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:id="@+id/button_text"
+            android:layout_width="@dimen/button_width_winner"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text_message"
+            android:textStyle="bold"
+            android:textSize="@dimen/button_text_size"
+            android:backgroundTint="@color/button_bg"
+            android:textColor="@color/black"
+            android:onClick="sendText"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location_button_text"
+        android:textStyle="bold"
+        android:textSize="@dimen/button_text_size"
+        android:backgroundTint="@color/button_bg"
+        android:textColor="@color/black"
+        android:layout_below="@+id/linear_lay"
+        android:layout_centerHorizontal="true"
+        android:onClick="findLocation" />
+
+
+
+</RelativeLayout>

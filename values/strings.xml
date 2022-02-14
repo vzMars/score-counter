@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MP7 Score Counter Settings</string>
+    <string name="winner">Winner</string>
+    <string name="starting_value">0</string>
+    <string name="red_team">Red</string>
+    <string name="blue_team">Blue</string>
+    <string name="img_cup_description">Winner Cup</string>
+    <string name="location_button_text">Basketball Court</string>
+    <string name="button_text_message">Message</string>
+    <string name="button_text_call">Call</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Background Preferences -->
+    <string name="main_bg_title">Main Activity Background</string>
+    <string name="winner_bg_title">Winner Activity Background</string>
+    <string name="favorite_team">Favorite Team</string>
+    <string name="bg_settings_header">Background Settings</string>
+    <string name="favorite_team_header">Favorite Team Settings</string>
+    <string name="contact_header">Preferred Contact Settings</string>
+
+
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <!-- Winner Preference -->
+    <string-array name="winner_entries">
+        <item>Medal</item>
+        <item>Cup</item>
+        <item>Thumbs Up</item>
+    </string-array>
+
+    <string-array name="winner_values">
+        <item>medal</item>
+        <item>cup</item>
+        <item>thumbs_up</item>
+    </string-array>
+
+    <!-- Main Preference -->
+    <string-array name="main_entries">
+        <item>Basketball</item>
+        <item>Monsters</item>
+        <item>Comics</item>
+    </string-array>
+
+    <string-array name="main_values">
+        <item>basketball</item>
+        <item>monsters</item>
+        <item>comics</item>
+    </string-array>
+</resources>
